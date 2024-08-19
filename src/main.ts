@@ -34,10 +34,7 @@ async function bootstrap() {
 
   // Swagger configuration
   const documentBuilder = new DocumentBuilder()
-    .addApiKey({ type: 'apiKey', name: 'apiKey', in: 'query', description: 'API Key For sse calls' },
-      'apiKey',
-    )
-    .setTitle('Maskelon')
+    .setTitle('My new app')
     .setDescription('')
     .setVersion('1.0.0')
     .addBearerAuth()
